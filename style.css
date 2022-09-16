@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+ font-family:  Helvetica, sans-serif;
+ background: #000;
+ line-height: 2.0em;
+ font-size: 13px;
+ font-weight: 300;
+ color:  #fff;
+ height: 100vh;
+ justify-content: center;
+ text-align: center;
+ display: flex;
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    max-height: 547px;
+    height: 100%;
+    background: #fff;
+    margin-top: 20px;
+}
+
+.odin{
+    display: flex;
+    float: left;
+    background: url("halie-west-25xggax4bSA-unsplash.jpg");
+    width: 350px;
+    height: 547px;
+    box-sizing: border-box;
+}
+
+.odin img{
+    height: 150px;
+    width: 90px;
+    margin-left: 60px;
+    padding-top: 50px;
+}
+
+
+.odin h1{
+    padding-top: 90px;
+    padding-right: 40px;
+    
+
+}
+
+.header .container {
+    background-color: lightgrey;
+    color: #000;
+    text-align: justify;
+    margin-top: 0;
+}
+
+.header .container h1{
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 60px;
+    padding-left: 40px;
+}
+
+.header .container .container1{
+    margin-top: 20px;
+}
+
+#section{
+    background-color: #fff;
+    color: #000;
+    padding-top: 0;
+    margin-top: 2px;
+    float: left;
+    box-sizing: border-box;
+}
+#section .container{
+    background: #fff;
+    color: #000;
+    margin-right: 30px;
+    
+}
+#section .container h1{
+    position: relative;
+     right: 30%;
+}
+
+ .container form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding-left: 15px;
+
+}
+
+.container form label{
+    display: block;
+    
+}
+
+.container form input{
+    width: 100%;
+    height:30px;
+    
+}
+
+ 
+#foot{
+    background-color: lightgray;
+    margin-top: 20px;
+    padding-left: 109px;
+    
+}
+
+#foot .container2 button{
+    margin-right: 290px;
+    width: 150px;
+    height: 25px;
+    margin-top: 5px;
+    color: #fff;
+    background: #596D48;
+    border-radius: 4px;
+    border: #596D48;
+}
+ 
+.container2 .pi{
+    margin-right: 250px;
+}
+
+.container2 .pi a{
+    text-decoration: none;
+    color: #596D48;
+}
+
